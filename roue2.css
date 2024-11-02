@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #00000065;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+text {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 11px;
+    pointer-events: none;
+    color: #333;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#chart {
+    width: 680px;
+    height: 680px;
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #00000065;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+}
+
+#question {
+    width: 580px;
+    height: 680px;
+    background-color: #00000065;
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+
+#question h1 {
+    font-size: 24px; /* Diminue la taille du texte */
+    font-weight: bold;
+    font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #00c3ff;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    position: absolute;
+    right: -25px; /* Positionne la flèche à droite */
+    top: 50%;
+    transform: translateY(-50%);
+}
